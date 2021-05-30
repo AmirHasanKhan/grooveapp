@@ -1,0 +1,264 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*hero start*/
+	.hero-items ul li {
+    	padding-left: 21px;
+	}
+	/*hero end**/
+
+	.header{}
+
+	/*hero body start*/
+	.hero-body-design img {
+    	top: 0px;	
+	}
+	/*hero body end*/
+
+	.marketing1 {
+	    margin: -90px 0 0 0;
+	    padding-top: 77px;
+	    padding-bottom: 70px;
+	}
+	.marketing-box {
+	    height: 269px;
+	    width: 284px;
+	}
+	.marketing-box2 {
+    padding-top: 11px;
+	}
+
+	/*body end*/
+
+	/*marketing2 secction start*/
+
+	.stable-ready {
+		text-align: center;
+	}
+	.stable-ready button {
+    margin: 0 auto 32px;
+    display: block;
+	}
+
+	-------------------/*accordion start*/
+	.stable-acc-item i {
+    	font-size: 25px;
+	}
+	.stable-acc-item:last-of-type {
+		margin-bottom: 15px;
+	}
+	.stable-acc-body p {
+    	padding-left: 0;
+	}
+
+-------------------/*accordion end*/
+	/*marketing2 secction end*/
+	/*radio section start*/
+
+	.radio-h4 {
+    	padding-top: 8%;
+	}
+	.radio-check {
+	    display: inline-block;
+	    padding-left: 9%;
+	}
+	.radio-p {
+    	margin-bottom: 11%;
+	}
+	/*radio section end*/
+	/*marketing4 section start*/
+	.marketing-img{
+		display: none;
+	}
+	.marketing4_h3 {
+    	padding-top: 0%;
+    	text-align: center;
+	}
+	.marketing4_p {
+    	width: 100%;
+    	text-align: center;
+	}
+	.marketing4-appl-btn {
+	    padding-left: 0;
+	    width: 100%;
+	}
+	.marketing4-google-btn {
+    	width: 100%;
+	}
+
+	/*marketing4 section end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*hero start*/
+
+	.logo {
+    padding: 13px;
+    font-size: 17px;
+    cursor: pointer;
+	}
+	.logo a i {
+    font-size: 41px;
+	}
+	.logo h5 {
+    font-size: 17px;
+	}
+	.hero-items {
+    	margin: 0 42px;
+	}
+	.hero-items ul li {
+    	padding-left: 88px;
+	}
+	
+	/*hero end
+	/*hero body start*/
+
+	.marketing-box {
+	    height: 269px;
+	    width: 236px;
+	}
+	/*hero body end*/
+
+	/*marketing2 secction start*/
+
+	.stable-ready {
+		text-align: center;
+	}
+
+	.stable-ready button {
+	    margin: 0 auto 32px;
+	    display: block;
+	}
+
+	-------------------/*accordion start*/
+
+	.stable-acc-item i {
+    	font-size: 25px;
+	}
+	.stable-acc-item:last-of-type {
+		margin-bottom: 11px;
+	}
+
+
+-------------------/*accordion end*/
+	/*marketing2 secction end*/
+	/*radio section start*/
+
+	.radio-h4 {
+    	padding-top: 8%;
+	}
+	.radio-check {
+	    display: inline-block;
+	    padding-left: 9%;
+	}
+	.radio-p {
+    	margin-bottom: 11%;
+	}
+	/*radio section end*/
+	/*marketing4 section start*/
+	
+	.marketing4_h3 {
+	    padding-top: 0%;
+	    text-align: center;
+	}
+	.marketing4_p {
+	    text-align: center;
+	    width: 102%;
+	}
+	.marketing4-appl-btn {
+    	padding-left: 27%;
+	}
+	/*marketing4 section end*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	/*hero start*/
+	.hero-items ul li {
+    	padding-left: 100px !important;
+	}
+	/*hero end**/
+	/*hero body start*/
+	.hero-body-design img {
+	    padding-top: 0px;
+	    top: 23px;
+	}
+	.marketing-box {
+		height: 269px;
+	    width: 209px
+	}
+
+
+	/*hero body end*/
+
+	/*marketing2 secction start*/
+	.stable-ready {
+    	text-align: center;
+	}
+	.stable-ready button {
+	    margin: 0 auto 32px;
+	    display: block;
+	}
+
+	-------------------/*accordion start*/
+
+	.stable-acc-item i {
+    	font-size: 25px;
+	}
+	.stable-acc-item:last-of-type {
+		margin-bottom: 18px !important;
+	}
+
+
+-------------------/*accordion end*/
+	/*marketing2 secction end*/
+	/*radio section start*/
+
+	.radio-h4 {
+	    padding-top: 44px;
+	    padding-bottom: 18px;
+	}
+	.radio-check {
+	    display: inline-block;
+	    padding-left: 9%;
+	}
+
+	.radio-p {
+    	margin-bottom: 53px;
+	}
+	/*radio section end*/
+	/*marketing4 section start*/
+	
+	.marketing4_h3 {
+	    padding-top: 0%;
+	    text-align: center;
+	}
+	.marketing4_p {
+	    text-align: center;
+	    width: 102%;
+	}
+	.marketing4-appl-btn {
+    	padding-left: 49% !important;
+	}
+	.marketing4-google-btn{}
+	/*marketing4 section end*/
+
+
+}
+
+/*Large devices desktops, 992px and up*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	.hero-items ul li {
+    padding-left: 88px;
+	}
+ }
+
+/*Extra Large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+	
+}
+
+/*Extra Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1400px) {
+
+}
